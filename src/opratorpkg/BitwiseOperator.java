@@ -37,13 +37,16 @@ public class BitwiseOperator {
         result = num4 << 2;
         System.out.println(result);
 
-        int num5 = 8;
+        int num5 = 5;
         result = num5 >> 2;
-        System.out.println(result);
+        System.out.println("Right shift ans = "+result);
 
         int num6 = -8;
         result = num6 >> 2;
         System.out.println(result);
+
+        int num7 = -5;
+        System.out.println(num7 >> 2);
     }
 
 }
