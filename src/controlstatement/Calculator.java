@@ -13,7 +13,7 @@ public class Calculator {
         System.out.println("Enter 2st no = ");
         double num2 = sc.nextDouble();
 
-        Operator op = null;
+        Operator op = Operator.fromSymbol(operator);
 
         switch (op){
             case ADD:
