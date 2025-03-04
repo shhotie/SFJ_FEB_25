@@ -13,9 +13,6 @@ public enum Operator {
         this.symbol = symbol;
     }
 
-    public char getSymbol() {
-        return symbol;
-    }
 
     public static Operator fromSymbol(char symbol) {
         for (Operator op : values()) {

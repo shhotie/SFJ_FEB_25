@@ -7,7 +7,7 @@ public class Calculator {
         System.out.println("Enter 1st no = ");
         double num1 = sc.nextDouble();
 
-        System.out.println("Enter operator = +, -, *, /, %");
+        System.out.println("Enter operator = +, -, *, /, %"); // addition
         char operator = sc.next().charAt(0);
 
         System.out.println("Enter 2st no = ");
