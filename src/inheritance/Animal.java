@@ -1,7 +1,8 @@
 package inheritance;
 
 public class Animal {
-    void eat(){
+    static String name = "Elephant";
+     public static void eat(){
         System.out.println("Animal eats food");
     }
 }

@@ -22,5 +22,9 @@ public class Tester {
         Bat bat = new Bat();
         bat.eat();
         bat.fly();
+
+        // calling static method and variables
+        Animal.eat();
+        System.out.println(Animal.name);
     }
 }
