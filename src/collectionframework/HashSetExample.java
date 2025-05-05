@@ -5,12 +5,13 @@ import java.util.Iterator;
 
 public class HashSetExample {
     public static void main(String[] args) {
+
         HashSet<String> fruits = new HashSet<>();
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");
         fruits.add("Mango");
-        System.out.println(fruits);
+        System.out.println("printing" + fruits);
         for(String fruit : fruits){
             System.out.print(fruit + " ");
         }
